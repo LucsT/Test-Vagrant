@@ -1,14 +1,20 @@
 Test Vagrant
 ====
 
-Sur l'hote 
+Sur l'hote  
+Pré-requis : Virtualbox
+
+
+Récupération de l'archive  
+> $ git clone git@github.com:LucsT/Test-Vagrant.git
 
 Installation des outils et téléchargement de la VM ubuntu server
 > $ sudo apt-get install vagrant  
 > $ sudo apt-get install fabric  
 > $ vagrant box add ubuntu-server http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box  
 
-> $ cd test_vagrant
+
+> $ cd Test-Vagrant
 
 Creation du Vagrantfile permettant la config de la VM
 > $ vagrant init ubuntu-server
@@ -24,5 +30,5 @@ Lancement de la VM
 
 Lancement du script  
 Si le port 22 est bien routé sur le port 2200
-> $ fab -H vagrant@localhost:2200 install
+> $ fab -H vagrant@localhost:2200 install  
     	 mot de passe : vagrant
