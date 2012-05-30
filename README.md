@@ -4,7 +4,7 @@ Test Vagrant
 Sur l'hote 
 
 Installation des outils et téléchargement de la VM ubuntu server
-> $ sudo apt-get install vagrant
+> $ sudo apt-get install vagrant  
 > $ sudo apt-get install fabric
 > $ vagrant box add ubuntu-server http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box
 
