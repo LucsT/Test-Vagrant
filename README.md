@@ -2,7 +2,6 @@ Test Vagrant
 ====
 
 Sur l'hote  
-Pré-requis : Virtualbox
 
 
 Récupération de l'archive  
@@ -30,6 +29,7 @@ Lancement de la VM
 
 Lancement du script  
 Si le port 22 est bien routé sur le port 2200
+Possibilité de rerouter sur le port de votre choix manuellement sinon cf shell de pendant le lancement de la VM
 > $ fab -H vagrant@localhost:2200 install  
 
 mot de passe : vagrant
