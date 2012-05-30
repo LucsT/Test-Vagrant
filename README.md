@@ -31,4 +31,5 @@ Lancement de la VM
 Lancement du script  
 Si le port 22 est bien routé sur le port 2200
 > $ fab -H vagrant@localhost:2200 install  
-    	 mot de passe : vagrant
+
+mot de passe : vagrant
