@@ -33,3 +33,7 @@ Possibilité de rerouter sur le port de votre choix manuellement sinon cf shell 
 > $ fab -H vagrant@localhost:2200 install  
 
 mot de passe : vagrant
+
+Le Hello World devrait donc être affichable depuis l'hôte à l'adresse http://localhost:8000
+
+
